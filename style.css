@@ -1,0 +1,53 @@
+div,p,ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	background: #ccc;
+}
+#pic{
+	height: 558px;
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	background: url(images/loading.gif) no-repeat center;
+	background-color: violet;
+}
+#pic p,#pic span{
+	background: #67D8C1;
+	color: #F92472;
+	height: 25px;
+	width: 100%;
+	line-height: 25px;
+	text-align:center;
+	position: absolute;
+}
+#pic p{
+	top: 0;
+}
+#pic span{
+	bottom: 0;
+}
+#pic img{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#pic ul{
+	width: 40px;
+	position: absolute;
+	right: -45px;
+	top: 0;
+}
+#pic ul li{
+	width: 40px;
+	height: 40px;
+	background: pink;
+	margin-bottom: 5px;
+}
+#pic ul .active{
+	background: yellow;
+}
